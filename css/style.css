@@ -1,8 +1,8 @@
-<link rel="stylesheet" type="text/css" href="reset.css">
-
 body {
   font-size: 14px;
 }
+
+/**this is the navigation code**/
 
 nav {
   background-color: yellow;
@@ -11,6 +11,8 @@ nav {
   position: fixed;
   width: 100%;
 }
+
+/**this is the code for the body elements**/
 
 section {
   margin: auto;
@@ -22,6 +24,8 @@ h1 {
   font-size: 2em;
 }
 
+/**this code applies to both the nav and the body**/
+
 .example, h3 {
   padding-top: 30px;
   text-align: center
@@ -31,9 +35,19 @@ h3 {
   font-size: 1.3em;
 }
 
-.element {
+.element,.blue-element,.green-element,.pink-element{
   background-color: green;
   height: 100px;
   margin: 10px 0;
   width: 100%;
+}
+
+/**this changes the color of two divs in the body**/
+
+.blue-element {
+  background-color:blue
+}
+
+.pink-element {
+  background-color:pink
 }
